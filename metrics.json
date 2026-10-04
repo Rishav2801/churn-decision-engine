@@ -1,0 +1,24 @@
+{
+  "selected_model": "logistic",
+  "selection_metric": "validation average precision",
+  "train_n": 4225,
+  "validation_n": 1409,
+  "test_n": 1409,
+  "test_metrics": {
+    "roc_auc": 0.8328166576248418,
+    "average_precision": 0.625481070883197,
+    "brier": 0.14130157578916194,
+    "top_20pct_precision": 0.6170212765957447,
+    "top_20pct_recall": 0.46524064171123,
+    "test_prevalence": 0.2654364797728886,
+    "top_20pct_lift": 2.324553419046535,
+    "ap_bootstrap_95ci": [
+      0.5713392606697107,
+      0.6802577631313917
+    ]
+  },
+  "missing_total_charges": 11,
+  "source_sha256": {
+    "telco.csv": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91"
+  }
+}
